@@ -1,1 +1,14 @@
+import React from "react";
+ import ReactDOM from "react-dom";
 
+ function App() {
+   return (
+     <img 
+      src="https://4io3yb.csb.app"
+      alt="new"
+      />
+   );
+ }
+
+ const rootElement = document.getElementById("root");
+ ReactDOM.render(<App />, rootElement);
